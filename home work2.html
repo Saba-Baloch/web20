@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: red;
+            background-image: url(ssss.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        img{
+            position: absolute;
+            right: 0;
+            bottom: 20%;
+            animation-name: img1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes img1 {
+            from{
+                left: 0;
+            }
+            to{
+                left: 100%;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="giphy.gif" alt="" width="180px">
+    </div>
+    
+</body>
+</html>

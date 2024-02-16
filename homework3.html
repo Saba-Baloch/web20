@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{
+      
+      padding: 0;
+      margin: 0;box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    height: 100vh;
+    background-color: rgba(91, 39, 221, 0.469);
+    }
+    .circle1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      border: 3px solid rgb(17, 16, 16);
+      border-top: 3px solid red;
+      animation: ani 3s linear infinite;
+
+
+    }
+    .circle2{
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 3px solid rgb(246, 2, 2);
+      border-top: 3px solid yellow;
+      animation: ani 2s linear infinite;
+    }
+    @keyframes ani {
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(360deg);
+      }
+    }
+
+    
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="circle1">
+      <div class="circle2"></div>
+    </div>
+  </div>
+  
+</body>
+</html>
